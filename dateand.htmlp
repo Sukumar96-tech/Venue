@@ -1,0 +1,26 @@
+
+<style>
+button{
+ height: 1600px;
+ width: 1200px;
+  background: skyblue;
+  
+}
+.s1{
+  color: black;
+  text-indent: 20px;
+  font-size: 100px;
+}
+.s2{
+  color: black;
+  font-size: 100px;
+  text-indent: 20px;
+}
+</style>
+<button >
+  
+  <h1 class="s1">Date:06-03-2025</h1>
+  <h1 class="s2">Day : Thrusday </h1>
+  
+  
+</button>
