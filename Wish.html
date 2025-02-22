@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wish</title>
+</head>
+<body>
+    <h2>Send your wishes</h2>
+    <input type="text" id="string1" placeholder="Enter your name">
+    <input type="text" id="string2" placeholder="Enter your message">
+    <br>
+    <button onclick="compareStrings()">send</button>
+    <p id="result"></p>
+
+    <script>
+        function compareStrings() {
+            let str1 = document.getElementById("string1").value.trim();
+            let str2 = document.getElementById("string2").value.trim();
+            let result = document.getElementById("result");
+
+            if (str1 === "" || str2 === "") {
+                result.textContent = "Please fill the details";
+                
+            }
+
+            else {
+                result.textContent = "Thank you."+str1;
+            }
+        }
+    </script>
+</body>
+</html>
