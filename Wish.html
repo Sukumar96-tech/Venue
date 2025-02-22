@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wish</title>
 </head>
+<style>
+  .f1{
+    
+   text-indent: 50px;
+  }
+  .f2{
+    text-indent: 50px;
+  }
+  .f3{
+    text-indent: 100px;
+  }
+</style>
 <body>
     <h2>Send your wishes</h2>
-    <input type="text" id="string1" placeholder="Enter your name">
-    <input type="text" id="string2" placeholder="Enter your message">
-    <br>
-    <button onclick="compareStrings()">send</button>
+    <h1 class="f1"><input type="text" id="string1" placeholder="Enter your name"></h1>
+    
+    <h1 class="f2"><input type="text" id="string2" placeholder="Enter your message"></h1>
+ 
+    <h1 class="f3"><button onclick="compareStrings()">SEND</button></h1>
     <p id="result"></p>
 
     <script>
